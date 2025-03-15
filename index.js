@@ -58,7 +58,16 @@
 // }
 // numbers(1,25,3);
 
-function numbers (a,b,c){
-    console.log (...arguments);
-}
-numbers(1,25,3,65);
+// function numbers (a,b,c){
+//     console.log (...arguments);
+// }
+// numbers(1,25,3,65);
+
+
+// let age = 33 ;
+ 
+// console.log (--age);
+// console.log (age--);
+// console.log (age++);
+
+
