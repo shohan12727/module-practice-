@@ -71,3 +71,69 @@
 // console.log (age++);
 
 
+// function odd (num1, num2){
+//     const result = num1+ num2 ;
+//     return result;
+// }
+
+// console.log(odd(5,6));
+
+
+// function  add (num1,num2){
+//   const result = num1+num2 ;
+//   console.log(num1,num2,result);
+//   return result ;
+// }
+
+// console.log (add(10,15));
+
+
+
+// default man diye rakhbo 
+
+// function sum (a,b=0){
+//     const result = a+b;
+//     return result ;
+// }
+
+// console.log (sum (5));
+
+// default function 
+
+// function createUser (name=' ',education={ },age=0,hobbies=[]){
+
+// }
+
+// const first = 'jaan';
+// const last = 'pakhi';
+// const name = first + ' '+last +' '+'potahsh potash';
+// console.log(name);
+
+// const a = 59 ;
+// const b = 25 ;
+// const math = `The sum of ${a} and ${b} is ${a+b}`;
+// console.log(math);
+
+// const vashon = `jhon cena 
+// cena naki ochina 
+// mair khalile nachina`;
+// console.log (vashon);
+
+// function getName (){
+//     return 'nadia';
+// }
+// const message = `na bolle sadia ache amar ${getName()}`;
+// console.log(message);
+
+// const age = 17;
+// const status = `you are an ${age>=18? 'Adult':'Minor'}`;
+// console.log(status);
+
+
+
+
+
+
+
+
+
