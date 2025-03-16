@@ -150,6 +150,201 @@ console.log(list);
 
 
 
+const addition = (a,b) => a+b ;
+const sum = addition(5,96) ;
+console.log(sum);
+
+
+const multiplication = (a,b,c=1) => a*b*c ;
+const gun = multiplication(45,96);
+console.log(gun);
+
+const student = {
+    name: 'hena',
+    age: 007
+}
+const getName = person => student.name;
+console.log(getName());
+------------
+
+
+const student = {
+    name: "hena",
+    age: 007
+};
+const getName = person => student.name;
+console.log(getName());
+
+
+
+
+const doMath = (a,b,c) => {
+    const sum = a+b+c ;
+    const mulply = a*b*c;
+    const addition = sum + mulply;
+    return addition;
+}
+
+console.log(doMath(12,65,989));
+
+
+
+const person= {
+    name:'shohan',
+    getRegular: function(){
+        console.log("hello," + this.name);
+    },
+    getArrow : () => {
+        console.log("hello,"+ this.name);
+    }
+};
+person.getArrow();
+person.getRegular();
+
+
+
+
+
+
+const gfName_ = hero.gfName;
+console.log(gfName_);
+const {name,gfName,age,relationStatus,lasting,phoneNumber,money} = hero ;
+
+console.log(name);
+console.log(gfName);
+console.log(age);
+console.log(relationStatus);
+console.log(lasting);
+console.log(phoneNumber);
+console.log(money);
+
+
+
+
+const numbers = [12,25,25,324,5421,54];
+const [first,second,third,forth,fifth,sixth] = numbers;
+console.log(first);
+console.log(second);
+console.log(third);
+console.log(forth);
+console.log(fifth);
+console.log(sixth);
+
+
+function double (a,b){
+    return [a*2,b*2];
+}
+const [prothom,ditiyo] = double (11,55);
+console.log(prothom);
+console.log(ditiyo);
+
+const person = {
+    name:'Ashraful islam shohan',
+    age:20,
+    city:'Dhaka',
+    country:'Bangladesh',
+    Num: 011111212
+};
+const {name,age,...rest} = person ;
+console.log(rest);
+
+
+const hero = {
+    name : 'pal',
+    gfName : 'nandini',
+    age : 20 ,
+    relationStatus: 'in a relationship',
+    lasting : '<1y',
+    phoneNumber : 69696969696969,
+    money : 'null'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
